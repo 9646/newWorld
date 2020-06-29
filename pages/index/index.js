@@ -50,5 +50,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  
+  goNewWorld: function() {
+    console.log('9999')
+    wx.switchTab({
+      url: '../red/red-tab/red-tab'
+    });
   }
 })
